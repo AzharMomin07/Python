@@ -1,0 +1,126 @@
+NUMPY
+	 
+	 
+	 
+	 Numpy have a scientefically packages that are used to Mathematical opration
+    
+     it is also give us multidimetional array's	
+	 
+	 Numpy provides efficient storage 
+	 
+	 It is fast
+	 numpy used reletivly less memory to store data 
+	 
+	 NUMPY have more mathematical opration:-
+	 
+	 mathematicale ,logic ,shape,sorting,selecting ,i/o,discrete Fouriour transform,basic linear algebra,basic staticale opration,random simulation,and more
+	 
+	 
+	 Python List vs Numpy Arrays
+	 
+	 1) Data Type Storage:-
+	 in list we store multiple type of data and also multiple data
+	 &
+	 in numpy we store also  same as list but it is not possible for hire calculation so tht time we choose only one data type
+	 
+	 list is good for this 
+	 
+	 2) importing module
+	 
+	 in list it is bydefault in python we direct used it.
+	 &
+	 numpy when we wnt to used it we import it first.
+	 
+	 
+	 3) Numerical Opration
+	 
+	  list is capable but less efficiency 
+	 &
+	 numpy is a work as matrix array so we use all matrix opration 
+	 
+	 4) modification
+	 
+	 in list modification is fast becaused multiple tool available
+	 &
+	 numpy is less tool available for modification
+	 
+	 
+	 5) Consume memory
+	 
+	 list is consume more memory
+	 &
+	 numpy is consume less memory
+	 
+	 6) Fast
+	 
+	 list is not fast
+	 &
+	 numpy is faster than list 
+	 
+	 7)convienent used
+	 
+	 list not used more data
+	 &
+	 numpy work to high data  also
+	 
+	 
+	 
+	 we check time of exicution using
+	 
+	 % timeit  -one line
+	 %% timeit - total program
+	 
+	 
+	 
+	 
+	 if you want to check how many dimetional array then you used 
+	 
+	 ndim -fuction
+	 
+	 create numpy arraya with Random Arrays
+	 
+	1 rand(): the function is used to generate a random value between 0 to 1.
+	 
+	2 randn():- this fuction provide number near zero to one it's positive also negative
+	
+	
+	                                      ***** Data Types in numpy *****
+
+     int :-     int 8,16,32,64
+     boolean :-	True,False
+     intc
+     intp
+     int8	 
+	 int16
+	 int32
+	 int64
+	 uint8 -unsigned data 0 to 255 data can be store
+	 -
+	 -
+	 uint64
+	 float
+	 float16
+	 -
+	 float64
+	 complex_
+	 complex64
+	 complex128
+	 
+	 ***************** Arithematic Opration in numpy **************************
+	 
+	 a+b    np.add(a,b)
+	 a-b    np.substract(a,b)
+	 a*b    np.multiply(a,b)
+	 a/b    np.divide(a,b)
+	 a%b    np.mod(a,b)
+	 a**b   np.power(a,b)
+	 2/b    np.reciprocal(b)
+	 
+	 
+	 
+	 ***** Slicing in array *****
+     get perticuler data set in array 
+      a=[1, 2, 3, 4, 5]
+   index 0  1  2  3  4	
+        a[]   
+     start:stop:step
